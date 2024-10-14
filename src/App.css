@@ -1,63 +1,29 @@
-.MuiTabPanel-root.css-13xfq8m-MuiTabPanel-root {
-  min-width: 820px;
+nav a {
+  text-decoration: underline;
+  padding: 2px;
 }
 
-.MuiTabPanel-root.css-13xfq8m-MuiTabPanel-root {
-  min-height: 604px;
+nav a:visited {
+  color: purple;
 }
 
-:root {
-  --ag-icon-font-family: agGridMaterial;
-}
-
-.todo-header {
+header {
   background-color: black;
+  color: white;
+  font-weight: bold;
   height: 60px;
+  width: 400px;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.todo-header h1 {
+.header-text {
   color: white;
   margin: 0;
   font-size: 18px;
   line-height: normal;
-}
-
-.input-container {
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 5px;
-  margin-top: 20px;
-}
-
-.input-label {
-  position: relative;
-  top: -33px;
-  left: 20px;
-  background-color: white;
-  color: #333;
-}
-
-button {
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-thead th {
-  border-bottom: 1px solid #ccc;;
-}
-
-tbody tr {
-  border-bottom: 1px solid #ccc;
-}
-
-table td {
-  border: none;
+  padding: 10px;
+  vertical-align: top;
 }
 
 #root {
@@ -65,40 +31,4 @@ table td {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

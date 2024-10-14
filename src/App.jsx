@@ -1,14 +1,17 @@
-import "./App.css";
-import Container from '@mui/material/Container';
-import CssBaseline from '@mui/material/CssBaseline';
-import TodoList from "./TodoList";
+import './App.css';
+import { Link, Outlet } from 'react-router-dom';
 
 function App() {
   return (
-  <Container maxWidth="xl">
-    <CssBaseline />
-      <TodoList />
-  </Container>
+    <>
+    <header><div className="header-text">Welcome to React Router</div></header>
+      <nav>
+        <Link to={"/"}>Home</Link>
+        <Link to={"/about"}>About</Link>
+        <Link to={"/contact"}>Contact</Link>
+      </nav>
+      <Outlet />
+    </>
   );
 }
 

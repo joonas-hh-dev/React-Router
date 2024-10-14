@@ -1,3 +1,5 @@
+// This code has been modified from Juha Hinkula's React Router project: https://github.com/juhahinkula/reactrouter.git
+
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
